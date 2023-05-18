@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(58, 58, 58);
+}
+
+.container{
+    width: 50%;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    transition: display 1s;
+}
+
+.hidden{
+    display: none;
+}
